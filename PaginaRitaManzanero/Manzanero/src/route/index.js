@@ -28,7 +28,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(), // Puedes quitar "import.meta.env.VITE_BASE_URL" si no tienes una variable definida
+    history: createWebHistory('/RitaManzanero/'),
     routes,
 });
 
